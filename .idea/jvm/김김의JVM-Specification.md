@@ -1,4 +1,14 @@
+# 김김의 JVM Specification
 
+JVM에는 해당 규격을 다루는 Specification이 존재한다.
+
+단, 국제 표준화 기구에 준하는 표준이 아니며, Standard 로 인정을 받지는 못하지만, De Facto Standard 즉, **********사실적 표준**********에 해당한다.
+
+JVM은 원칙적으로 누구나 만들 수 있으며, 스펙은 하나의 과정이자 단체이기도 한 JCP에 의해 권장된다. 이러한 Specification에 기반하여 만들어낸 구현체들을 배포하는 조직이나 사람들을 Vendor라고 일컫는다.
+
+이렇듯 JVM은 추상적인 개념의 컴퓨터역할로 class 파일을 읽어 실행할 수 있으며,이론적으로는 하드웨어 구현도 가능하다. JVM의 실행엔진이 하드웨어의 역할을 수행할 수 있다.
+
+하지만 불완전하거나,시장성의 부족 등의 이유로 현재 시장에서 살아남지는 못했다.
 
 ### JVM의 개괄도
 ![JVM](https://upload.wikimedia.org/wikipedia/commons/d/dd/JvmSpec7.png)
